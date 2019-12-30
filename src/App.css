@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+body {
+  background-image: url(https://image.shutterstock.com/image-photo/man-using-laptop-black-keys-260nw-1331235470.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.user-app {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.user-app-main {
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.users-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-card {
+  border: 2px solid blue;
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+  position: relative;
+  margin: 10px;
   display: flex;
   flex-direction: column;
+}
+
+.user-image {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgfsibINmD_d4OHF0xj54ATJptUVP7QpAEX4-ARe9I4_koCcBf&s);
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.user-name {
+  font-size: 20px;
+  color: blue;
+  background-color:white;
+  border-top: 2px solid white;
+  text-align: center;
+  padding: 10px;
+}
+
+.comment {
+  border: 2px solid black;
+  border-radius: 30px;
+  width: 800px;
+  height: 150px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.post {
+  border: 2px solid black;
+  width: 800px;
+  height: 250px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fit-picture {
+  width: 50px;
+  height: 50px;
+}
+.flow:hover{
+  box-shadow: 0px 10px 8px blue;
+  transform:translateY(4px);
+}
+.flow {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-left: 60px;
+  font-size: 20px;
   color: white;
+  background-color:rgb(54, 54, 224);
+  border-radius: 8px;
+  border-top: 2px solid white;
+  text-align: center;
+  padding: 10px;
+  
 }
-
-.App-link {
-  color: #61dafb;
+.text{
+  font-size: 15px;
+  text-align: center;
+  color: blue;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text1{
+  font-size: 20px;
+  text-align: center;
+  color: red;
+}
+.text2{
+  text-align: center;
+  font-size: 20px;
 }
